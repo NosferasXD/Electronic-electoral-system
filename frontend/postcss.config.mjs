@@ -1,7 +1,9 @@
-/** @type {import('postcss-load-config').Config} */
+// Arquivo: postcss.config.mjs
+
 const config = {
   plugins: {
-    tailwindcss: {},
+    'tailwindcss': {},
+    'autoprefixer': {},
   },
 };
 
